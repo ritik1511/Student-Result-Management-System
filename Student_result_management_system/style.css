@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+body {
+	position: relative;
+	background-image: url("images/img8.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	width: auto;
+	/* filter: blur(5px); */
+}
+
+.head {
+	font-family: "Trebuchet MS";
+	font-size: 40px;
+	color: #FFF;
+	margin-left: 50px;
+
+}
+
+.hr {
+	width: 80%;
+	height: 5px;
+	border-radius: 100px;
+	background-color: #FFF;
+}
+
+.subhead {
+	font-family: "Segoe UI";
+	color: #FC0;
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+
+.labels {
+	font-family: "Segoe UI";
+	color: #FFF;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.fields {
+	font-family: "Segoe UI";
+	font-size: 14px;
+	padding: 2px 5px;
+	color: rgb(33, 222, 222);
+	background-color: transparent;
+	border: 1px solid #101111;
+	border-radius: 5px;
+}
+.fields1 {
+	font-family: "Segoe UI";
+	font-size: 14px;
+	padding: 2px 5px;
+	color: rgb(16, 17, 17);
+	background-color:rgb(8, 238, 246) ;
+	border: 1px solid #126062;
+	border-radius: 5px;
+}
+.fields1:hover{
+	background-color:rgb(67, 117, 167) ;
+}
+
+.design {
+	background-color: transparent;
+	border: 1px solid #126062;
+	border-radius: 5px;
+	padding: 10px 10px;
+	box-shadow: 0px 0px 40px #000000;
+}
+
+a.link:link {
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	color: pink;
+}
+
+a.link:active {
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	color: pink;
+}
+
+a.link:visited {
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	color: #4f80f4;
+}
+
+a.link:hover {
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.msg {
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #FF3;
+}
+
+a.cmd:link {
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	color: #cffb09;
+	padding: 5px 6px;
+	background-color: transparent;
+	border: 1px solid rgb(243, 156, 25);
+}
+
+a.cmd:active {
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	color: #28a3a6;
+	padding: 5px 6px;
+	background-color: transparent;
+	border: 1px solid #066;
+}
+
+a.cmd:visited {
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	color: #28a3a6;
+	padding: 5px 6px;
+	background-color: transparent;
+	border: 1px solid #066;
+}
+
+a.cmd:hover {
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	color: #FFFFFF;
+	padding: 5px 6px;
+	background-color: transparent;
+	border: 1px solid #066;
+	box-shadow: 0px 0px 10px #066;
+}
